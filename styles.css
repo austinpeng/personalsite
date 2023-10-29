@@ -124,18 +124,10 @@ img {
 
     .column {
         flex: none; /* Reset the flex property to allow the columns to stack */
-        margin-top: 20px; /* Add space between stacked columns */
+
     }
 }
 
-
-/* Media query for larger screens */
-@media only screen and (min-width: 1200px) {
-    img {
-        margin-top: 8vh; /* Adjusted margin for larger screens */
-    }
-}
-}
 
 /* Media query for larger screens */
 @media only screen and (min-width: 1200px) {
