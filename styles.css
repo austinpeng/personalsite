@@ -203,4 +203,27 @@ img {
         text-align:center;
     }
 }
+@media only screen 
+    and (width: 390px) 
+    and (height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+
+    img {
+        margin-top: 350vw; /* Adjusted margin for smaller screens */
+    }
+
+    .columns {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center columns horizontally */
+    }
+
+    .column {
+        flex: none; /* Reset the flex property to allow the columns to stack */
+
+    }
+    h1{
+        text-align:center;
+    }
+
+}
 
