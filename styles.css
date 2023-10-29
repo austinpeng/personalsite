@@ -1,0 +1,145 @@
+body {
+    background-color: #F7EFE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Consolas', monospace;
+}
+
+.body {
+    max-width: 70%;
+    text-align: center;
+    cursor: url('cursor.png'), auto;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 2in;
+    height: 2in;
+    object-fit: cover;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    text-align: left;
+    border: 1px dotted #999;
+    padding: 20px;
+}
+/* Media query for smaller screens */
+body {
+    background-color: #F7EFE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Consolas', monospace;
+}
+
+.body {
+    max-width: 70%;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 2in;
+    height: 2in;
+    object-fit: cover;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    text-align: left;
+    border: 1px dotted #999;
+    padding: 20px;
+}
+/* Media query for smaller screens */
+/* Media query for smaller screens */
+@media only screen and (max-width: 800px) {
+    img {
+        margin-top: 50vh; /* Adjusted margin for smaller screens */
+    }
+
+    .columns {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center columns horizontally */
+    }
+
+    .column {
+        flex: none; /* Reset the flex property to allow the columns to stack */
+        margin-top: 20px; /* Add space between stacked columns */
+    }
+}
+
+
+/* Media query for larger screens */
+@media only screen and (min-width: 1200px) {
+    img {
+        margin-top: 8vh; /* Adjusted margin for larger screens */
+    }
+}
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 1200px) {
+    img {
+        margin-top: 8vh; /* Adjusted margin for larger screens */
+    }
+}
