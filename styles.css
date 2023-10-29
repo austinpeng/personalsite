@@ -187,7 +187,7 @@ img {
 }
 @media only screen and (max-width: 390px) {
     img {
-        margin-top: 3700vw; /* Adjusted margin for smaller screens */
+        margin-top: 370vw; /* Adjusted margin for smaller screens */
     }
 
     .columns {
