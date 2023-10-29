@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Austin Peng's Website</title>
     <style>
-        body {
+         body {
             background-color: #F7EFE5;
             display: flex;
             flex-direction: column;
@@ -13,21 +13,27 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
+            font-family: 'Consolas', monospace;
         }
+
+        
         .body {
-            max-width:70%;
-            text-align:center;
+            max-width: 70%;
+            text-align: center;
         }
 
         h1 {
             margin-top: 20px;
+        }
+        
+        h2{
+            text-align:center;
         }
 
         img {
             width: 2in;
             height: 2in;
             object-fit: cover;
-/*            border-radius: 50%;  Makes the image circular */
         }
 
         .social-icons {
@@ -40,25 +46,51 @@
             width: 40px;
             height: 40px;
             object-fit: cover;
-/*            border-radius: 50%;*/
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .column {
+            flex: 1;
+            text-align: left;
+            border: 1px dotted #999;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
     <img src="prof2.png" alt="Austin's Photo">
-    <h1>Hi, I'm Austin</h1>
+    <h1>Hello, I'm Austin</h1>
     <div class="body">
-        I'm currently a fourth-year undergraduate at New York University studying Business and Technology Management. I'm interested in building consumer businesses and love to train calisthenics, take photos, and play tennis in my free time.
-    
+        I'm a fourth-year undergraduate at New York University studying Business and Technology Management. I love photography, calisthenics, and tennis.
     </div>
     <div class="social-icons">
-        <a href="https://twitter.com/austinpengg" target="_blank"<p>Twitter</p>
-           
-        </a>
-    <a href="https://www.instagram.com/your_instagram_handle" <p>Instagram</p>
-        </a>
-<a href="https://www.linkedin.com/in/your_linkedin_profile" target="_blank" <p>LinkedIn</p>
-        </a>
+        <a href="https://twitter.com/austinpengg" target="_blank"><p>Twitter</p></a>
+        <a href="https://www.instagram.com/austinpengg" target="_blank"><p>Instagram</p></a>
+        <a href="https://www.linkedin.com/in/austin-peng-1" target="_blank"><p>LinkedIn</p></a>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <h2>Past</h2>
+            <p>- grew up in Short Hills, NJ <br><br>- cofounded <a href="verci.com">Verci</a>, a membership community for young entrepreneurs<br><br> - raised $100K to fund companies started by dropouts <br><br> - invested in <a href="posh.vip">POSH</a> <br><br>- threw a <a href="posh.vip/cloudcartelnyc">web3 networking party</a> for 500+ people <br><br> - lived in San Francisco for two months and Florence for four
+            </p>
+            
+        </div>
+        <div class="column">
+            <h2>Present</h2>
+            <p>- taking classes at NYU Tandon School of Engineering <br><br>- researching cool companies at <a href="primary.vc">Primary Venture Partners</a>, a $1B AUM venture fund<br><br>- creating media products at <a href="houck.news">Houck's Newsletter</a> reaching 80,000+ subscribers<br><br> - vibing to deep house, melodic techno, and The Strokes<br><br>- eating a lot of dining hall food and practicing Spanish
+            
+        </div>
+        <div class="column">
+            <h2>Future</h2>
+            <p>- starting a podcast..? <br><br>- who knows
+            </p>
+        </div>
     </div>
 </body>
 </html>
