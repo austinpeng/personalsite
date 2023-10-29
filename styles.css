@@ -157,7 +157,7 @@ img {
     and (-webkit-device-pixel-ratio: 3) { 
         
             img {
-        margin-top: 150vw; /* Adjusted margin for smaller screens */
+        margin-top: 150vw !important; /* Adjusted margin for smaller screens */
     }
 
     .columns {
