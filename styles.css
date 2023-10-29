@@ -187,29 +187,7 @@ img {
 }
 @media only screen and (max-width: 390px) {
     img {
-        margin-top: 270vw; /* Adjusted margin for smaller screens */
-    }
-
-    .columns {
-        flex-direction: column; /* Stack columns vertically */
-        align-items: center; /* Center columns horizontally */
-    }
-
-    .column {
-        flex: none; /* Reset the flex property to allow the columns to stack */
-
-    }
-    h1{
-        text-align:center;
-    }
-}
-@media only screen 
-    and (max-width: 390px) 
-    and (max-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-
-    img {
-        margin-top: 350vw; /* Adjusted margin for smaller screens */
+        margin-top: 370vw; /* Adjusted margin for smaller screens */
     }
 
     .columns {
