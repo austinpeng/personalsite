@@ -169,7 +169,7 @@ img {
 }
 @media only screen and (max-width: 450px) {
     img {
-        margin-top: 2200vw; /* Adjusted margin for smaller screens */
+        margin-top: 250vw; /* Adjusted margin for smaller screens */
     }
 
     .columns {
@@ -184,24 +184,5 @@ img {
     h1{
         text-align:center;
     }
-}
-@media only screen and (max-width: 400px) {
-    img {
-        margin-top: 370vw; /* Adjusted margin for smaller screens */
-    }
-
-    .columns {
-        flex-direction: column; /* Stack columns vertically */
-        align-items: center; /* Center columns horizontally */
-    }
-
-    .column {
-        flex: none; /* Reset the flex property to allow the columns to stack */
-
-    }
-    h1{
-        text-align:center;
-    }
-
 }
 
