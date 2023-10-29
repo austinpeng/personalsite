@@ -112,29 +112,15 @@ img {
 /* Media query for smaller screens */
 /* Media query for smaller screens */
 
-}
 
-@media only screen and (max-width: 600px) {
-    img {
-        margin-top: 90vw; /* Adjusted margin for smaller screens */
-    }
-
-    .columns {
-        flex-direction: column; /* Stack columns vertically */
-        align-items: center; /* Center columns horizontally */
-    }
-
-    .column {
-        flex: none; /* Reset the flex property to allow the columns to stack */
-
-    }
-}
 
 /* Media query for larger screens */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 800px) {
     img {
         margin-top: 5vw;  
     }
+
+}
     
 @media only screen and (max-width: 800px) {
     img {
@@ -151,9 +137,9 @@ img {
 
     }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
     img {
-        margin-top: 50vw; /* Adjusted margin for smaller screens */
+        margin-top: 80vw; /* Adjusted margin for smaller screens */
     }
 
     .columns {
@@ -166,6 +152,37 @@ img {
 
     }
 }
+@media only screen and (max-width: 550px) {
+    img {
+        margin-top: 100vw; /* Adjusted margin for smaller screens */
+    }
 
+    .columns {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center columns horizontally */
+    }
 
+    .column {
+        flex: none; /* Reset the flex property to allow the columns to stack */
+
+    }
 }
+@media only screen and (max-width: 400px) {
+    img {
+        margin-top: 250vw; /* Adjusted margin for smaller screens */
+    }
+
+    .columns {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center columns horizontally */
+    }
+
+    .column {
+        flex: none; /* Reset the flex property to allow the columns to stack */
+
+    }
+    .h2{
+        text-align:center;
+    }
+}
+
