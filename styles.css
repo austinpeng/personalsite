@@ -117,7 +117,7 @@ img {
     and (-webkit-device-pixel-ratio: 3) { 
         
             img {
-        margin-top: 50vh; /* Adjusted margin for smaller screens */
+        margin-top: 50vw; /* Adjusted margin for smaller screens */
     }
 
     .columns {
@@ -132,7 +132,7 @@ img {
 }
 @media only screen and (max-width: 800px) {
     img {
-        margin-top: 50vh; /* Adjusted margin for smaller screens */
+        margin-top: 50vw; /* Adjusted margin for smaller screens */
     }
 
     .columns {
@@ -146,10 +146,25 @@ img {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    img {
+        margin-top: 150vw; /* Adjusted margin for smaller screens */
+    }
+
+    .columns {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center columns horizontally */
+    }
+
+    .column {
+        flex: none; /* Reset the flex property to allow the columns to stack */
+
+    }
+}
 
 /* Media query for larger screens */
 @media only screen and (min-width: 1200px) {
     img {
-        margin-top: 8vh; /* Adjusted margin for larger screens */
+        margin-top: 5vw;  
     }
 }
