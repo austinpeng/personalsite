@@ -86,7 +86,7 @@ img {
 }
 
 .social-icons {
-    margin-top: 20px;
+
     display: flex;
     gap: 20px;
 }
@@ -100,7 +100,6 @@ img {
 .columns {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
     width: 100%;
 }
 
@@ -114,7 +113,7 @@ img {
 /* Media query for smaller screens */
 @media only screen and (max-width: 800px) {
     img {
-        margin-top: 50vh; /* Adjusted margin for smaller screens */
+        margin-top: 80vh; /* Adjusted margin for smaller screens */
     }
 
     .columns {
