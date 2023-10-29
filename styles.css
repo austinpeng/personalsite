@@ -204,8 +204,8 @@ img {
     }
 }
 @media only screen 
-    and (width: 390px) 
-    and (height: 844px) 
+    and (max-width: 390px) 
+    and (max-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) { 
 
     img {
